@@ -1,3 +1,6 @@
+*.safetensors filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.rknn filter=lfs diff=lfs merge=lfs -text
 model/*.safetensors filter=lfs diff=lfs merge=lfs -text
 model/*.pt filter=lfs diff=lfs merge=lfs -text
 model/*.rknn filter=lfs diff=lfs merge=lfs -text
